@@ -2,7 +2,7 @@
 
 #1 
 def hello_name(user_name):
-    print("hello_" + user_name)
+    print("hello_" + user_name.upper())
 
 #test
 hello_name("tscherman")
@@ -29,8 +29,8 @@ def max_num_in_list2(a_list):
 
 #test
 nums = [1, 33, 84, 6, 5, 75, 92, 23, 10]
-print(max_num_in_list(nums))
-print(max_num_in_list2(nums))
+print("The max number in this list is: ", max_num_in_list(nums))
+print("The max number in this list is: ",max_num_in_list2(nums))
 
 #4
 def is_leap_year(a_year):
